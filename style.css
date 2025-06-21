@@ -1,0 +1,31 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background: black;
+	overflow: hidden;
+}
+
+h1{
+	position: absolute;
+	left: 5%;
+	color: white;
+	font-size: 50px;
+	width: 30%;
+}
+
+.page img {
+	width: 98%;
+	height: 98%;
+	border: 10px solid black;
+}
+
+audio {
+	width: 30%;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
